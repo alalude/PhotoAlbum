@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class PhotoAlbumViewController;
+@class PhotoAlbumCollectionViewController;
 
 @interface PhotoAlbumAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) PhotoAlbumViewController *viewController;
+@property (strong, nonatomic) PhotoAlbumCollectionViewController *viewController;
 
 @end

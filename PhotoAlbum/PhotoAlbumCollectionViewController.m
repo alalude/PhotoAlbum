@@ -6,18 +6,22 @@
 //  Copyright (c) 2013 Akinbiyi Lalude. All rights reserved.
 //
 
-#import "PhotoAlbumViewController.h"
+#import "PhotoAlbumCollectionViewController.h"
+#import "PhotoAlbumLayout.h"
 
-@interface PhotoAlbumViewController ()
+@interface PhotoAlbumCollectionViewController ()
+
+@property (nonatomic, weak) IBOutlet PhotoAlbumLayout *photoAlbumLayout;
 
 @end
 
-@implementation PhotoAlbumViewController
+@implementation PhotoAlbumCollectionViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.collectionView.backgroundColor = [UIColor colorWithWhite:0.25f alpha:1.0f];
 }
 
 - (void)didReceiveMemoryWarning

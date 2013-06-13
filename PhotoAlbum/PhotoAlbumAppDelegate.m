@@ -8,7 +8,7 @@
 
 #import "PhotoAlbumAppDelegate.h"
 
-#import "PhotoAlbumViewController.h"
+#import "PhotoAlbumCollectionViewController.h"
 
 @implementation PhotoAlbumAppDelegate
 
@@ -16,7 +16,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[PhotoAlbumViewController alloc] initWithNibName:@"PhotoAlbumViewController" bundle:nil];
+    self.viewController = [[PhotoAlbumCollectionViewController alloc] initWithNibName:@"PhotoAlbumCollectionViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3B2357417692C2D001A3AF3 /* PhotoAlbumLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B2357317692C2D001A3AF3 /* PhotoAlbumLayout.m */; };
+		E3B235781769306E001A3AF3 /* AlbumPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B235771769306E001A3AF3 /* AlbumPhotoCell.m */; };
 		E3D1A24E17666BF400D4A0AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D1A24D17666BF400D4A0AB /* UIKit.framework */; };
 		E3D1A25017666BF400D4A0AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D1A24F17666BF400D4A0AB /* Foundation.framework */; };
 		E3D1A25217666BF400D4A0AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D1A25117666BF400D4A0AB /* CoreGraphics.framework */; };
@@ -16,11 +18,15 @@
 		E3D1A26017666BF400D4A0AB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1A25F17666BF400D4A0AB /* Default.png */; };
 		E3D1A26217666BF400D4A0AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1A26117666BF400D4A0AB /* Default@2x.png */; };
 		E3D1A26417666BF400D4A0AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1A26317666BF400D4A0AB /* Default-568h@2x.png */; };
-		E3D1A26717666BF400D4A0AB /* PhotoAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D1A26617666BF400D4A0AB /* PhotoAlbumViewController.m */; };
-		E3D1A26A17666BF400D4A0AB /* PhotoAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D1A26817666BF400D4A0AB /* PhotoAlbumViewController.xib */; };
+		E3D1A26717666BF400D4A0AB /* PhotoAlbumCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D1A26617666BF400D4A0AB /* PhotoAlbumCollectionViewController.m */; };
+		E3D1A26A17666BF400D4A0AB /* PhotoAlbumCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D1A26817666BF400D4A0AB /* PhotoAlbumCollectionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3B2357217692C2D001A3AF3 /* PhotoAlbumLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumLayout.h; sourceTree = "<group>"; };
+		E3B2357317692C2D001A3AF3 /* PhotoAlbumLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumLayout.m; sourceTree = "<group>"; };
+		E3B235761769306E001A3AF3 /* AlbumPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumPhotoCell.h; sourceTree = "<group>"; };
+		E3B235771769306E001A3AF3 /* AlbumPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumPhotoCell.m; sourceTree = "<group>"; };
 		E3D1A24A17666BF400D4A0AB /* PhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D1A24D17666BF400D4A0AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E3D1A24F17666BF400D4A0AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,9 +40,9 @@
 		E3D1A25F17666BF400D4A0AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E3D1A26117666BF400D4A0AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E3D1A26317666BF400D4A0AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E3D1A26517666BF400D4A0AB /* PhotoAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumViewController.h; sourceTree = "<group>"; };
-		E3D1A26617666BF400D4A0AB /* PhotoAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumViewController.m; sourceTree = "<group>"; };
-		E3D1A26917666BF400D4A0AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PhotoAlbumViewController.xib; sourceTree = "<group>"; };
+		E3D1A26517666BF400D4A0AB /* PhotoAlbumCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumCollectionViewController.h; sourceTree = "<group>"; };
+		E3D1A26617666BF400D4A0AB /* PhotoAlbumCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumCollectionViewController.m; sourceTree = "<group>"; };
+		E3D1A26917666BF400D4A0AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PhotoAlbumCollectionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3B2357117692B77001A3AF3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2357217692C2D001A3AF3 /* PhotoAlbumLayout.h */,
+				E3B2357317692C2D001A3AF3 /* PhotoAlbumLayout.m */,
+				E3D1A26517666BF400D4A0AB /* PhotoAlbumCollectionViewController.h */,
+				E3D1A26617666BF400D4A0AB /* PhotoAlbumCollectionViewController.m */,
+				E3D1A26817666BF400D4A0AB /* PhotoAlbumCollectionViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E3B235751769302A001A3AF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3B235761769306E001A3AF3 /* AlbumPhotoCell.h */,
+				E3B235771769306E001A3AF3 /* AlbumPhotoCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		E3D1A24117666BF400D4A0AB = {
 			isa = PBXGroup;
 			children = (
@@ -83,11 +110,10 @@
 		E3D1A25317666BF400D4A0AB /* PhotoAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				E3B235751769302A001A3AF3 /* View */,
 				E3D1A25C17666BF400D4A0AB /* PhotoAlbumAppDelegate.h */,
 				E3D1A25D17666BF400D4A0AB /* PhotoAlbumAppDelegate.m */,
-				E3D1A26517666BF400D4A0AB /* PhotoAlbumViewController.h */,
-				E3D1A26617666BF400D4A0AB /* PhotoAlbumViewController.m */,
-				E3D1A26817666BF400D4A0AB /* PhotoAlbumViewController.xib */,
+				E3B2357117692B77001A3AF3 /* ViewController */,
 				E3D1A25417666BF400D4A0AB /* Supporting Files */,
 			);
 			path = PhotoAlbum;
@@ -163,7 +189,7 @@
 				E3D1A26017666BF400D4A0AB /* Default.png in Resources */,
 				E3D1A26217666BF400D4A0AB /* Default@2x.png in Resources */,
 				E3D1A26417666BF400D4A0AB /* Default-568h@2x.png in Resources */,
-				E3D1A26A17666BF400D4A0AB /* PhotoAlbumViewController.xib in Resources */,
+				E3D1A26A17666BF400D4A0AB /* PhotoAlbumCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +202,9 @@
 			files = (
 				E3D1A25A17666BF400D4A0AB /* main.m in Sources */,
 				E3D1A25E17666BF400D4A0AB /* PhotoAlbumAppDelegate.m in Sources */,
-				E3D1A26717666BF400D4A0AB /* PhotoAlbumViewController.m in Sources */,
+				E3D1A26717666BF400D4A0AB /* PhotoAlbumCollectionViewController.m in Sources */,
+				E3B2357417692C2D001A3AF3 /* PhotoAlbumLayout.m in Sources */,
+				E3B235781769306E001A3AF3 /* AlbumPhotoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,12 +219,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		E3D1A26817666BF400D4A0AB /* PhotoAlbumViewController.xib */ = {
+		E3D1A26817666BF400D4A0AB /* PhotoAlbumCollectionViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E3D1A26917666BF400D4A0AB /* en */,
 			);
-			name = PhotoAlbumViewController.xib;
+			name = PhotoAlbumCollectionViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,6 +327,7 @@
 				E3D1A26F17666BF400D4A0AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
